@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Booking Baru - Klinik Sejahtera</title>
+</head>
+<body>
+
+<header>
+  <h1>Klinik Sejahtera</h1>
+  <p>Aplikasi Booking Janji Temu Pasien</p>
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="booking.html">Booking Baru</a> |
+    <a href="edit.html">Edit</a> |
+    <a href="detail.html">Detail</a>
+  </nav>
+</header>
+
+<main>
+
+<h2>Form Booking Baru</h2>
+
+<p>Silakan isi data di bawah ini.</p>
+
+<form>
+  <p>
+    <label for="nama">Nama Lengkap</label><br>
+    <input type="text" id="nama" name="nama" placeholder="Contoh: Rina Kusuma">
+  </p>
+
+  <p>
+    <label for="nik">NIK</label><br>
+    <input type="text" id="nik" name="nik" placeholder="16 digit NIK">
+  </p>
+
+  <p>
+    <label for="tanggallahir">Tanggal Lahir</label><br>
+    <input type="date" id="tanggallahir" name="tanggallahir">
+  </p>
+
+  <p>
+    <label for="jk">Jenis Kelamin</label><br>
+    <select id="jk" name="jk">
+      <option>-- Pilih --</option>
+      <option>Laki-laki</option>
+      <option>Perempuan</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="hp">No. HP</label><br>
+    <input type="text" id="hp" name="hp" placeholder="08xxxxxxxxxx">
+  </p>
+
+  <p>
+    <label for="dokter">Pilih Dokter</label><br>
+    <select id="dokter" name="dokter">
+      <option>-- Pilih Dokter --</option>
+      <option>dr. Amira Sari</option>
+      <option>dr. Budi Santoso</option>
+      <option>dr. Citra Wulandari</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="tanggal">Tanggal Kunjungan</label><br>
+    <input type="date" id="tanggal" name="tanggal">
+  </p>
+
+  <p>
+    <label for="jam">Jam Kunjungan</label><br>
+    <select id="jam" name="jam">
+      <option>-- Pilih Jam --</option>
+      <option>09.00</option>
+      <option>10.30</option>
+      <option>13.00</option>
+      <option>15.30</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="bayar">Metode Bayar</label><br>
+    <select id="bayar" name="bayar">
+      <option>-- Pilih --</option>
+      <option>Bayar di Tempat</option>
+      <option>BPJS</option>
+      <option>Asuransi</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="keluhan">Keluhan</label><br>
+    <textarea id="keluhan" name="keluhan" rows="5" placeholder="Tulis keluhan anda"></textarea>
+  </p>
+
+  <p>
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+  </p>
+</form>
+
+</main>
+
+<footer>
+  <p>Rajaa Azharul Hanafi - 103022400116</p>
+</footer>
+
+</body>
+</html>

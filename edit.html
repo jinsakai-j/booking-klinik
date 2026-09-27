@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Edit Appointment - Klinik Sejahtera</title>
+</head>
+<body>
+
+<header>
+  <h1>Klinik Sejahtera</h1>
+  <p>Aplikasi Booking Janji Temu Pasien</p>
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="booking.html">Booking Baru</a> |
+    <a href="edit.html">Edit</a> |
+    <a href="detail.html">Detail</a>
+  </nav>
+</header>
+
+<main>
+
+<h2>Edit Appointment</h2>
+
+<p>Mengubah data janji temu nomor 1.</p>
+
+<form>
+  <p>
+    <label for="namalama">Nama Lengkap</label><br>
+    <input type="text" id="namalama" name="namalama" value="Rina Kusuma">
+  </p>
+
+  <p>
+    <label for="nik">NIK</label><br>
+    <input type="text" id="nik" name="nik" value="3201234567890001">
+  </p>
+
+  <p>
+    <label for="jk">Jenis Kelamin</label><br>
+    <select id="jk" name="jk">
+      <option>Laki-laki</option>
+      <option selected>Perempuan</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="dokter">Pilih Dokter</label><br>
+    <select id="dokter" name="dokter">
+      <option selected>dr. Amira Sari</option>
+      <option>dr. Budi Santoso</option>
+      <option>dr. Citra Wulandari</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="tanggal">Tanggal Kunjungan</label><br>
+    <input type="date" id="tanggal" name="tanggal" value="2026-09-28">
+  </p>
+
+  <p>
+    <label for="jam">Jam Kunjungan</label><br>
+    <select id="jam" name="jam">
+      <option selected>09.00</option>
+      <option>10.30</option>
+      <option>13.00</option>
+      <option>15.30</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="status">Status</label><br>
+    <select id="status" name="status">
+      <option>Menunggu</option>
+      <option selected>Konfirmasi</option>
+      <option>Selesai</option>
+      <option>Dibatalkan</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="keluhan">Keluhan</label><br>
+    <textarea id="keluhan" name="keluhan" rows="5">Demam dan pilek sejak 3 hari lalu.</textarea>
+  </p>
+
+  <p>
+    <input type="submit" value="Simpan">
+    <input type="reset" value="Batal">
+  </p>
+</form>
+
+</main>
+
+<footer>
+  <p>Rajaa Azharul Hanafi - 103022400116</p>
+</footer>
+
+</body>
+</html>
