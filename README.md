@@ -18,5 +18,15 @@ bayar, keluhan, dan status).
 Untuk tahap ini baru dibuat strukturnya saja memakai HTML, belum ada CSS
 dan JavaScript, jadi tampilannya masih polos.
 
+Update week3
+Sekarang udah ditambahin file style.css yang di-link ke semua halaman. HTML-nya sendiri gak diubah banyak, cuma nambah beberapa div sama span biar bisa di-styling.
+
+Yang diterapin di CSS:
+- font-family, font-size, font-weight buat judul sama teks isi biar konsisten
+- styling list buat menu navigasi sama daftar dokter
+- text-align buat judul dan label form
+- warna background sama teks dibikin konsisten
+- pakai div sama span buat nge-group elemen tertentu
+- media query, jadi kalau layarnya sempit menu yang tadinya horizontal berubah jadi vertikal
 
 Rajaa Azharul Hanafi - 103022400116
