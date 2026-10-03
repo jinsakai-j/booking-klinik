@@ -31,15 +31,20 @@ header h1 {
 
 header p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: normal;
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
+  color: #f5fff8;
 }
 
 nav {
   background-color: #3fa35f;
   text-align: center;
   padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav a {
@@ -125,6 +130,8 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
 }
 
 footer {
