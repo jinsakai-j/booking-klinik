@@ -29,4 +29,11 @@ Yang diterapin di CSS:
 - pakai div sama span buat nge-group elemen tertentu
 - media query, jadi kalau layarnya sempit menu yang tadinya horizontal berubah jadi vertikal
 
+Update week4
+Di minggu ini tampilannya diganti pakai Bootstrap 5 yang dihubungkan lewat CDN, jadi gak perlu build atau install apa pun. HTML-nya diubah lumayan banyak, terutama header diganti jadi navbar Bootstrap, tabel dikasih class table, dan form dikasih class form-control sama form-select.
+
+Alasan pakai Bootstrap: halaman di aplikasi ini isinya banyak tabel sama form, jadi komponen yang udah disediain Bootstrap tinggal dipakai dan hasilnya langsung rapi tanpa nulis CSS dari nol. Navbar-nya juga otomatis berubah jadi menu hamburger kalau layarnya kecil.
+
+File style.css sekarang dikurangin, cuma nyimpen warna hijau buat identitas klinik aja. Untuk screenshot tampilan desktop sama mobile udah disimpan di folder docs/screenshots.
+
 Rajaa Azharul Hanafi - 103022400116
